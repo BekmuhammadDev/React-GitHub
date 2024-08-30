@@ -1,0 +1,34 @@
+$bg-navbar:#161B22;
+$bg-secondary:#6E7681;
+$bg-page:#0D1117;
+$text-primary:#1F6FEB;
+
+footer{
+ background: $bg-page;
+ color: #fff;
+ padding: 49.5px 0;
+ font-size: 14px;
+ a{
+    color: $bg-secondary;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+ }
+ nav{
+    ul{
+        display: flex;
+        gap: 42px;
+        li{
+            display: flex;
+
+            &-first-child{
+                margin-right: 70px;
+            }
+            .link{
+                color: $text-primary;
+
+            }
+        }
+    }
+ }
+}

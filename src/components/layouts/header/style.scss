@@ -1,0 +1,18 @@
+$bg-navbar:#161B22;
+header{
+    background-color: $bg-navbar;
+    color: #fff;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        align-items: center;
+
+        .nav-list{
+            display: flex;
+            list-style-type: none;
+            gap: 16px;
+        }
+    }
+}

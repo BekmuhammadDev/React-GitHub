@@ -1,0 +1,9 @@
+$bg-secondary:#6E7681;
+$bg-border:#282C31;
+input{
+    padding: 8px 12px;
+    min-width: 240px;
+    border-radius: 5px;
+    border: 1px solid $bg-border;
+    color: $bg-secondary;
+}

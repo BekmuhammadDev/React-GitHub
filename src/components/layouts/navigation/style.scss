@@ -1,0 +1,30 @@
+$bg-page:#0D1117;
+$bg-border:#282C31;
+.navigation{
+    background: $bg-page;
+    height: 73px;
+    border-bottom: 1px solid $bg-border;
+    padding-top: 33px;
+    .list{
+        display: flex;
+        color: #fff;
+        gap: 24px;
+        padding-left: 160px;
+
+        .item{
+            
+
+            .link{
+                padding-bottom: 15px;
+                display: flex;
+                gap: 5px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.active{
+    border-bottom: 3px solid orangered;
+
+}

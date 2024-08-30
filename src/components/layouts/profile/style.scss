@@ -1,0 +1,54 @@
+.profile{
+    padding: 0 0 0 74px;
+    color: #fff;
+    img{
+        width: 296px;
+        height: 296px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: -33px;
+        margin-bottom: 18px;
+        left: -12px;
+        cursor: pointer;
+    }
+
+    h2{
+        font-size: 32px;
+        color: #C2CAD1;
+        margin-bottom: -18px;
+        cursor: pointer;
+        
+    }
+
+    p{
+        margin-bottom: 18px;
+    }
+
+    button{
+        width: 90%;
+        text-align: center;
+        margin:0 0 18px 0;
+        background: #343942;
+    }
+
+    .links{
+        gap: 4px;
+        display: flex;
+    }
+
+    a{
+        cursor: pointer;
+
+    }
+
+    ul{
+        li{
+            cursor: pointer;
+        }
+    }
+
+    
+}

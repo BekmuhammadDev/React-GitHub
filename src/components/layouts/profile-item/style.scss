@@ -1,0 +1,37 @@
+.profile-item{
+    width: 100%;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.575);
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    gap: 34px;
+    img{
+        width: 96px;
+        height: 96px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    h4{
+        font-weight: bold;
+        margin-bottom: 8px;
+
+    }
+
+    p{
+        font-size: 16px;
+        color: #8C92A1;
+    }
+
+    .info{
+        display: flex;
+        gap: 30px;
+        i{
+           margin-right: 6px;
+        }
+    }
+}
