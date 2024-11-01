@@ -3,7 +3,7 @@ import { headerTopNavigation } from '../../../mocks';
 import { Container } from '../../containers';
 import './style.scss';
 import logo from "../../../assets/images/GitHub.png"
-import {Input} from "../../form/"
+
 import { Button } from '../../ui';
 
 
@@ -24,7 +24,7 @@ export const Header = () => {
 
                 <ul className='nav-list'>
                     <li>
-                        <Input/>
+                       
                     </li>
                     <li>
                         <Button text="Login"/>
